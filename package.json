@@ -29,6 +29,7 @@
       "test"
     ],
     "testRegex": "test/(.*?/)?.*test.js$",
+    "testPathIgnorePatterns": ["/node_modules/", "test/locale/"],
     "testURL": "http://localhost",
     "coverageDirectory": "./coverage/",
     "collectCoverage": true,
